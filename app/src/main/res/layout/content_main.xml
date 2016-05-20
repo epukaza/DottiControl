@@ -15,5 +15,57 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/activity_main_nearby_devices"
+        android:id="@+id/textViewHeader"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonScan"
+        android:text="@string/activity_main_scan"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/listDevices"
+        android:layout_below="@+id/buttonScan"
+        android:layout_alignParentStart="true">
+    </ListView>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_random_color"
+        android:id="@+id/buttonRandomColor"
+        android:layout_marginTop="65dp"
+        android:layout_below="@+id/listDevices"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_selected_device"
+        android:id="@+id/textView"
+        android:layout_below="@+id/listDevices"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/textColorDark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_main_none"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginStart="26dp"
+        android:textColor="@color/textColorDark" />
+
 </RelativeLayout>

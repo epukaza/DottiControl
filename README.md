@@ -1,7 +1,10 @@
-## Personal project to become familiar with android bluetooth API
+#DottiControl
 
-### Current Objective
+Side project to do fun stuff with a Dotti Bluetooth display that I won at a hackathon
 
-1. Display list of bluetooth devices
-  a. Maybe filter to only Dotti devices
-2. Button to make a random pixel a random color
+Current goals:
+* Communicate with the Dotti
+* Figure out how fast I can update all 64 pixels
+* Play snake on the Dotti
+* Do something Useful&trade; with the Dotti
+

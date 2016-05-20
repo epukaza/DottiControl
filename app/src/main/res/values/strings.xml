@@ -1,4 +1,14 @@
 <resources>
     <string name="app_name">DottiControl</string>
     <string name="action_settings">Settings</string>
+    <string name="activity_main_nearby_devices">Nearby Devices</string>
+    <string name="activity_main_random_color">Random Color</string>
+    <string name="activity_main_selected_device">Selected Device:</string>
+    <string name="activity_main_none">None</string>
+    <string name="simpleserviceUUID">0000fff0-0000-1000-8000-00805f9b34fb</string>
+    <string name="simpleCellUUID">0000fff3-0000-1000-8000-00805f9b34fb</string>
+
+    <string name="error_bluetooth_not_supported">Bluetooth not supported</string>
+    <string name="activity_main_scan">Scan</string>
+    <string name="unknown_device">Unknown Device</string>
 </resources>
